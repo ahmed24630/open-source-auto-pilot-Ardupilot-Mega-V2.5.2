@@ -3,7 +3,7 @@ Complete manual of Ardupilot Mega V2.5.2 with example application
 .. _building-ardupilot-with-arduino-windows:
 
 
-Archived: Building ArduPilot for APM2.x on Windows with Arduino
+Building ArduPilot for APM2.x on Windows with Arduino
 ===============================================================
 
 This article shows how to build ArduPilot for APM2.x targets on Windows,
@@ -136,7 +136,7 @@ https://firmware.ardupilot.org/Tools/Arduino/ArduPilot-Arduino-1.0.3-gcc-4.8.2-w
 This can be unzipped directly to the **C:** drive or **C:\\Program
 Files\\**
 
-.. note::
+.. note:
 
    This is a special ArduPilot Arduino package which contains gcc
    4.8.2
@@ -245,7 +245,7 @@ Upload to your ArduPilot
    
 3. Configure Your ArduPilot using planner, as normal.
 
-   .. warning::
+   .. warning:
 
       The code you have just compiled is now UN-TESTED in your
       configuration. Please use only for testing. If you are not confident,
