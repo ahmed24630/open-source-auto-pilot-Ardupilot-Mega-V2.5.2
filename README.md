@@ -37,12 +37,14 @@ Install Git-SCM
 
 ![git_setup_wizard_welcome](https://user-images.githubusercontent.com/30057649/125969065-1365d055-f834-4675-9dd2-4b41664e6fe3.jpg)
        
+       
 ![git_setup_wizard_license](https://user-images.githubusercontent.com/30057649/125969055-fc666497-bd51-4e76-badf-a802c8296a82.jpg)
     
 #. On the *Welcome screen* and then again on the *License screen* click
    the **Next** button
 
 ![git_setup_wizard_components](https://user-images.githubusercontent.com/30057649/125969047-b7d86651-a37c-4e46-91a4-51e4ce18f145.jpg)
+   
    
 ![git_setup_wizard_view_release_notes](https://user-images.githubusercontent.com/30057649/125969062-3985a263-ead7-4875-987e-2f37b3837da0.jpg)
    
@@ -51,12 +53,14 @@ Install Git-SCM
 
 ![git_setup_wizard_replace_in_use_files](https://user-images.githubusercontent.com/30057649/125969058-ba022006-4c10-4d26-80b8-a4b51a61d71a.jpg)
    
+   
 ![git_setup_wizard_installing_files](https://user-images.githubusercontent.com/30057649/125969051-9e537abc-4fab-4878-9824-167ab8bb66b4.jpg)
    
 #. Click the **Next** button in the *Replacing in Use Files Screen*,
    then wait for Git to finish loading
 
 ![git_setup_wizard_set_line_endings](https://user-images.githubusercontent.com/30057649/125969061-d546c406-2ccb-4a07-b216-382000792913.jpg)
+   
    
 ![git_setup_wizard_run_git_command_prompt](https://user-images.githubusercontent.com/30057649/125969059-eb602bc1-8e59-4405-b957-c4cf24f4b2a8.jpg)
    
@@ -229,6 +233,7 @@ Upload to your ArduPilot
 ========================
 
 #. Then if all is well upload to the autopilot, as shown:
+
 ![arduino_tools_upload_ardupilot_button](https://user-images.githubusercontent.com/30057649/125969035-e34f248f-775a-4564-a348-a8a0feff0cb9.png)
 
    This may take a while…
