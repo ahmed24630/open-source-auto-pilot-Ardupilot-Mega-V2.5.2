@@ -1,5 +1,10 @@
 Building using arduino
 --------------------------
+use specific arduino IDE for Ardupilot here:
+https://drive.google.com/file/d/1J7pQeITKyyrOsCnT9VJQ8TntN8vJ6qOR/view?usp=sharing
+and here:
+https://drive.google.com/file/d/1J7pQeITKyyrOsCnT9VJQ8TntN8vJ6qOR/view?usp=sharing
+
 To install the libraries:
  - copy Library Directories to your \arduino\hardware\libraries\ or arduino\libraries directory
  - Restart arduino IDE
