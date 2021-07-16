@@ -148,8 +148,7 @@ Configure Arduino
    
 2. Double click the Arduino icon
 
-   .. image:: ../images/arduino_icon.jpg
-       :target: ../_images/arduino_icon.jpg
+![arduino_icon](https://user-images.githubusercontent.com/30057649/125974790-7a655c08-a019-4286-826a-7c80bd005750.jpg)
    
 3. When Arduino opens, go to the file menu
 
