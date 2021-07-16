@@ -132,7 +132,8 @@ Install ArduPilot-Arduino
 
 Download and unzip the ArduPilot Arduino package:
 https://firmware.ardupilot.org/Tools/Arduino/ArduPilot-Arduino-1.0.3-gcc-4.8.2-windows.zip
-
+or from here:
+https://drive.google.com/file/d/1J7pQeITKyyrOsCnT9VJQ8TntN8vJ6qOR/view?usp=sharing
 This can be unzipped directly to the **C:** drive or **C:\\Program
 Files\\**
 
