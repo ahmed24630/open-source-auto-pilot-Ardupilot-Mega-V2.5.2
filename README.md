@@ -6,20 +6,14 @@ Complete manual of Ardupilot Mega V2.5.2 with example application
 Archived: Building ArduPilot for APM2.x on Windows with Arduino
 ===============================================================
 
-.. warning::
-
-   **ARCHIVED ARTICLE**
-
-   ArduPilot no longer supports Arduino or AVR.
-
 This article shows how to build ArduPilot for APM2.x targets on Windows,
 using the Arduino toolchain.
 
-.. tip::
+.. tip:
 
    An alternative approach is covered in :ref:`Building ArduPilot for APM2.x on Windows with Make <building-ardupilot-for-apm2-x-on-windows-with-make>`.
 
-.. warning::
+.. warning:
 
    Copter 3.3 firmware (and later) and builds after Plane 3.4.0 no longer
    fit on APM boards. Plane, Rover and AntennaTracker builds can still be
@@ -100,7 +94,7 @@ Download source
 
    ::
 
-       git clone git://github.com/ArduPilot/ardupilot.git
+       git clone https://github.com/ahmed24630/open-source-auto-pilot-Ardupilot-Mega-V2.5.2.git
 
    .. image:: ../images/git_bash_clone_ardupilot.jpg
        :target: ../_images/git_bash_clone_ardupilot.jpg
