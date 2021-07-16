@@ -81,23 +81,19 @@ Download source
 
 #. In this screen type
 
-   ::
+   :
 
        git clone https://github.com/ahmed24630/open-source-auto-pilot-Ardupilot-Mega-V2.5.2.git
 
 ![git_bash_clone_ardupilot](https://user-images.githubusercontent.com/30057649/125969036-3e2cefe4-fa44-43b2-823a-d6e029532d13.jpg)
-   .. image:: ../images/git_bash_clone_ardupilot.jpg
-       :target: ../_images/git_bash_clone_ardupilot.jpg
 
    When it is finished it should look like this….
 
 ![git_bash_clone_ardupilot_complete](https://user-images.githubusercontent.com/30057649/125969038-50fc39f1-cb59-4a97-b2c2-2ac21bcf9ab3.jpg)
-   .. image:: ../images/git_bash_clone_ardupilot_complete.jpg
-       :target: ../_images/git_bash_clone_ardupilot_complete.jpg
 
 #. A little more initialisation is required for the source code.  Initialise referenced dependencies like this:
 
-   ::
+   :
 
       cd ardupilot
       git submodule update --init --recursive
@@ -109,31 +105,21 @@ Install MHV_AVR_Tools to its default location
    `https://firmware.ardupilot.org/Tools/Arduino/MHV_AVR_Tools_20121007.exe <https://firmware.ardupilot.org/Tools/Arduino/MHV_AVR_Tools_20131101.exe>`__
 
 ![mhv_avr_tools_installer_welcome](https://user-images.githubusercontent.com/30057649/125969079-df987e27-f509-4a13-8803-e6dcadfa648e.jpg)
-   .. image:: ../images/mhv_avr_tools_installer_welcome.jpg
-       :target: ../_images/mhv_avr_tools_installer_welcome.jpg
    
 ![mhv_avr_tools_installer_choose_start_menu_folder](https://user-images.githubusercontent.com/30057649/125969072-85c6929d-1a91-4fdd-92f8-cc6e5ca624a6.jpg)
-   .. image:: ../images/mhv_avr_tools_installer_choose_start_menu_folder.jpg
-       :target: ../_images/mhv_avr_tools_installer_choose_start_menu_folder.jpg
    
 #. Select the **Next** button in the setup wizard screen then select the
    **Install** button for *MHV AVR Tools*
 
 ![mhv_avr_tools_installer_choose_components](https://user-images.githubusercontent.com/30057649/125969068-2117c304-d5a2-4500-afb7-2be51c2d1758.jpg)
-   .. image:: ../images/mhv_avr_tools_installer_choose_components.jpg
-       :target: ../_images/mhv_avr_tools_installer_choose_components.jpg
    
 ![mhv_avr_tools_installer_choose_destination_folder](https://user-images.githubusercontent.com/30057649/125969069-922aab37-245b-4886-ab03-12df77d51483.jpg)
-   .. image:: ../images/mhv_avr_tools_installer_choose_destination_folder.jpg
-       :target: ../_images/mhv_avr_tools_installer_choose_destination_folder.jpg
    
 #. Check both items in the Choose *Components Screen* and select
    **Next** then select **Next** again to install to the default
    location
 
 ![mhv_avr_tools_installer_license_agreement](https://user-images.githubusercontent.com/30057649/125969075-92cb2216-c4d2-46d7-bf76-00c61734d3d5.jpg)
-   .. image:: ../images/mhv_avr_tools_installer_license_agreement.jpg
-       :target: ../_images/mhv_avr_tools_installer_license_agreement.jpg
    
 #. Select the **I Agree** button on the *License Agreement screen*.
 
@@ -164,14 +150,10 @@ Configure Arduino
 #. When Arduino opens, go to the file menu
 
 ![arduino_menu_preferences](https://user-images.githubusercontent.com/30057649/125969020-7fc0623c-5e10-43a8-b92b-e2871c84eceb.jpg)
-   .. image:: ../images/arduino_menu_preferences.jpg
-       :target: ../_images/arduino_menu_preferences.jpg
    
 #. Select preferences
 
 ![arduino_preferences_dialog](https://user-images.githubusercontent.com/30057649/125969021-e0aa3ac9-1eaa-4e60-ac3b-639a957510db.png)
-   .. image:: ../images/arduino_preferences_dialog.png
-       :target: ../_images/arduino_preferences_dialog.png
 
    -  Set Sketchbook location to your ArduPilot directory in your GIT
       folder.
@@ -189,36 +171,26 @@ Connect your APM to your USB
    will use Copter, though the others use the same methods.
 
 ![arduino_tools_sketchbook_copter](https://user-images.githubusercontent.com/30057649/125969030-3cf67e89-373f-4442-a485-7f914ecf2816.jpg)
-   .. image:: ../images/arduino_tools_sketchbook_copter.jpg
-       :target: ../_images/arduino_tools_sketchbook_copter.jpg
    
 #. Once this is loaded, click on the ArduPilot tab, and select ArduPilot
    mega 2.x out of the HAL options.
 
 ![arduino_tools_target_apm2](https://user-images.githubusercontent.com/30057649/125969032-530bda83-fe75-4abe-90de-64a8f00d905a.jpg)
-   .. image:: ../images/arduino_tools_target_apm2.jpg
-       :target: ../_images/arduino_tools_target_apm2.jpg
    
 #. Then click the “Tools” tab and select “Arduino Mega 2560 or Mega ADK”
    from the “Board” tab.
 
 ![arduino_tools_select_target_board](https://user-images.githubusercontent.com/30057649/125969026-bb3296f9-66ff-420d-aec9-b39c0045152b.jpg)
-   .. image:: ../images/arduino_tools_select_target_board.jpg
-       :target: ../_images/arduino_tools_select_target_board.jpg
    
 #. Next select the *Tools* tab again, and set the “Serial Port” to the
    one your APM is connected to.
 
 ![arduino_tools_serial_port](https://user-images.githubusercontent.com/30057649/125969028-fec5d76f-269a-4dfd-ac6c-4b6e8ea76611.jpg)
-   .. image:: ../images/arduino_tools_serial_port.jpg
-       :target: ../_images/arduino_tools_serial_port.jpg
    
 #. In my case it was COM4, but check under device manager / Ports to
    find out on your system.
 
 ![arduino_tools_confirm_correct_com_port_in_drivers](https://user-images.githubusercontent.com/30057649/125969023-8b1fffb6-cc97-41bd-90d4-9c2b83dbf515.jpg)
-   .. image:: ../images/arduino_tools_confirm_correct_com_port_in_drivers.jpg
-       :target: ../_images/arduino_tools_confirm_correct_com_port_in_drivers.jpg
 
 Configure Copter
 ================
@@ -231,14 +203,14 @@ Configure Copter
    Ie if you want to compile with auto tune disabled, simply un-comment
    the line
 
-   ::
+   :
 
        //# AUTOTUNE DISABLED // disable the auto tune functionality to save 7k of flash
 
    To disable Auto Tune which is enabled by default you would change it
    to:
 
-   ::
+   :
 
        # AUTOTUNE DISABLED // disable the auto tune functionality to save 7k of flash
 
@@ -252,24 +224,18 @@ Configure Copter
    I would choose Verify for the first attempt.
 
 ![arduino_tools_verify_button](https://user-images.githubusercontent.com/30057649/125971820-0ec9ee8c-c042-41d6-b45d-4bfe4f53f3b1.jpg)
-   .. image:: ../images/arduino_tools_verify_button.jpg
-       :target: ../_images/arduino_tools_verify_button.jpg
 
 Upload to your ArduPilot
 ========================
 
 #. Then if all is well upload to the autopilot, as shown:
 ![arduino_tools_upload_ardupilot_button](https://user-images.githubusercontent.com/30057649/125969035-e34f248f-775a-4564-a348-a8a0feff0cb9.png)
-   .. image:: ../images/arduino_tools_upload_ardupilot_button.png
-       :target: ../_images/arduino_tools_upload_ardupilot_button.png
 
    This may take a while…
 
 #. You should end up with the message as shown below.
 
 ![arduino_tools_upload_complete_message](https://user-images.githubusercontent.com/30057649/125971738-dd0eaa19-2e43-4766-8fad-13092c8e4140.jpg)
-   .. image:: ../images/arduino_tools_upload_complete_message.jpg
-       :target: ../_images/arduino_tools_upload_complete_message.jpg
    
 #. Configure Your ArduPilot using planner, as normal.
 
