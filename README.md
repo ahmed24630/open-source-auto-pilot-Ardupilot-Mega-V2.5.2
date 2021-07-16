@@ -4,13 +4,8 @@ Complete manual of Ardupilot Mega V2.5.2 with example application
 .. _common-apm25-and-26-overview:
 
 
-Archived:APM 2.5 and 2.6 Overview
-=================================
-
-.. warning::
-
-    The APM2.x is end of life for use with ArduPilot.
-    This article is made available for existing users.
+APM 2.5 and 2.6 Overview
+========================
 
 APM 2.5
 =======
