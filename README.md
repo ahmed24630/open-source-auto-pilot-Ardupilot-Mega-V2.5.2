@@ -35,36 +35,44 @@ Install Git-SCM
    https://git-scm.com/download/win
 #. Follow the screenshots below to make your selections during install.
 
+![git_setup_wizard_welcome](https://user-images.githubusercontent.com/30057649/125969065-1365d055-f834-4675-9dd2-4b41664e6fe3.jpg)
    .. image:: ../images/git_setup_wizard_welcome.jpg
        :target: ../_images/git_setup_wizard_welcome.jpg
-
+       
+![git_setup_wizard_license](https://user-images.githubusercontent.com/30057649/125969055-fc666497-bd51-4e76-badf-a802c8296a82.jpg)
    .. image:: ../images/git_setup_wizard_license.jpg
        :target: ../_images/git_setup_wizard_license.jpg
     
 #. On the *Welcome screen* and then again on the *License screen* click
    the **Next** button
 
+![git_setup_wizard_components](https://user-images.githubusercontent.com/30057649/125969047-b7d86651-a37c-4e46-91a4-51e4ce18f145.jpg)
    .. image:: ../images/git_setup_wizard_components.jpg
        :target: ../_images/git_setup_wizard_components.jpg
    
+![git_setup_wizard_view_release_notes](https://user-images.githubusercontent.com/30057649/125969062-3985a263-ead7-4875-987e-2f37b3837da0.jpg)
    .. image:: ../images/git_setup_wizard_view_release_notes.jpg
        :target: ../_images/git_setup_wizard_view_release_notes.jpg
    
 #. On the *Select Components screen* click on the **Next** button, then
    click the **Finish** button
 
+![git_setup_wizard_replace_in_use_files](https://user-images.githubusercontent.com/30057649/125969058-ba022006-4c10-4d26-80b8-a4b51a61d71a.jpg)
    .. image:: ../images/git_setup_wizard_replace_in_use_files.jpg
        :target: ../_images/git_setup_wizard_replace_in_use_files.jpg
    
+   ![git_setup_wizard_installing_files](https://user-images.githubusercontent.com/30057649/125969051-9e537abc-4fab-4878-9824-167ab8bb66b4.jpg)
    .. image:: ../images/git_setup_wizard_installing_files.jpg
        :target: ../_images/git_setup_wizard_installing_files.jpg
    
 #. Click the **Next** button in the *Replacing in Use Files Screen*,
    then wait for Git to finish loading
 
+![git_setup_wizard_set_line_endings](https://user-images.githubusercontent.com/30057649/125969061-d546c406-2ccb-4a07-b216-382000792913.jpg)
    .. image:: ../images/git_setup_wizard_set_line_endings.jpg
        :target: ../_images/git_setup_wizard_set_line_endings.jpg
    
+![git_setup_wizard_run_git_command_prompt](https://user-images.githubusercontent.com/30057649/125969059-eb602bc1-8e59-4405-b957-c4cf24f4b2a8.jpg)
    .. image:: ../images/git_setup_wizard_run_git_command_prompt.jpg
        :target: ../_images/git_setup_wizard_run_git_command_prompt.jpg
    
@@ -76,17 +84,20 @@ Download source
 
 #. In your C: drive, make a folder called GIT (**C:\\GIT** on my
    computer). Navigate to the folder Windows Explorer
-
+   
+![git_setup_create_git_directory](https://user-images.githubusercontent.com/30057649/125969045-63dca18d-3920-41d7-b2cc-663e7972792f.jpg)
    .. image:: ../images/git_setup_create_git_directory.jpg
        :target: ../_images/git_setup_create_git_directory.jpg
    
 #. Right click anywhere in the folder and click git bash
 
+![git_bash_command_prompt](https://user-images.githubusercontent.com/30057649/125969039-2428f813-cffe-460c-b371-e8fac320f2e5.jpg)
    .. image:: ../images/git_bash_command_prompt.jpg
        :target: ../_images/git_bash_command_prompt.jpg
 
    This screen will come up
 
+![git_bash_prompt](https://user-images.githubusercontent.com/30057649/125969042-88827b49-e63f-456a-b0bf-0e8afee2cd98.jpg)
    .. image:: ../images/git_bash_prompt.jpg
        :target: ../_images/git_bash_prompt.jpg
 
@@ -96,11 +107,13 @@ Download source
 
        git clone https://github.com/ahmed24630/open-source-auto-pilot-Ardupilot-Mega-V2.5.2.git
 
+![git_bash_clone_ardupilot](https://user-images.githubusercontent.com/30057649/125969036-3e2cefe4-fa44-43b2-823a-d6e029532d13.jpg)
    .. image:: ../images/git_bash_clone_ardupilot.jpg
        :target: ../_images/git_bash_clone_ardupilot.jpg
 
    When it is finished it should look like this….
 
+![git_bash_clone_ardupilot_complete](https://user-images.githubusercontent.com/30057649/125969038-50fc39f1-cb59-4a97-b2c2-2ac21bcf9ab3.jpg)
    .. image:: ../images/git_bash_clone_ardupilot_complete.jpg
        :target: ../_images/git_bash_clone_ardupilot_complete.jpg
 
@@ -117,18 +130,22 @@ Install MHV_AVR_Tools to its default location
 #. Download and install the MHV_AVR Tools:
    `https://firmware.ardupilot.org/Tools/Arduino/MHV_AVR_Tools_20121007.exe <https://firmware.ardupilot.org/Tools/Arduino/MHV_AVR_Tools_20131101.exe>`__
 
+![mhv_avr_tools_installer_welcome](https://user-images.githubusercontent.com/30057649/125969079-df987e27-f509-4a13-8803-e6dcadfa648e.jpg)
    .. image:: ../images/mhv_avr_tools_installer_welcome.jpg
        :target: ../_images/mhv_avr_tools_installer_welcome.jpg
    
+![mhv_avr_tools_installer_choose_start_menu_folder](https://user-images.githubusercontent.com/30057649/125969072-85c6929d-1a91-4fdd-92f8-cc6e5ca624a6.jpg)
    .. image:: ../images/mhv_avr_tools_installer_choose_start_menu_folder.jpg
        :target: ../_images/mhv_avr_tools_installer_choose_start_menu_folder.jpg
    
 #. Select the **Next** button in the setup wizard screen then select the
    **Install** button for *MHV AVR Tools*
 
+![mhv_avr_tools_installer_choose_components](https://user-images.githubusercontent.com/30057649/125969068-2117c304-d5a2-4500-afb7-2be51c2d1758.jpg)
    .. image:: ../images/mhv_avr_tools_installer_choose_components.jpg
        :target: ../_images/mhv_avr_tools_installer_choose_components.jpg
    
+![mhv_avr_tools_installer_choose_destination_folder](https://user-images.githubusercontent.com/30057649/125969069-922aab37-245b-4886-ab03-12df77d51483.jpg)
    .. image:: ../images/mhv_avr_tools_installer_choose_destination_folder.jpg
        :target: ../_images/mhv_avr_tools_installer_choose_destination_folder.jpg
    
@@ -136,6 +153,7 @@ Install MHV_AVR_Tools to its default location
    **Next** then select **Next** again to install to the default
    location
 
+![mhv_avr_tools_installer_license_agreement](https://user-images.githubusercontent.com/30057649/125969075-92cb2216-c4d2-46d7-bf76-00c61734d3d5.jpg)
    .. image:: ../images/mhv_avr_tools_installer_license_agreement.jpg
        :target: ../_images/mhv_avr_tools_installer_license_agreement.jpg
    
@@ -167,11 +185,13 @@ Configure Arduino
    
 #. When Arduino opens, go to the file menu
 
+![arduino_menu_preferences](https://user-images.githubusercontent.com/30057649/125969020-7fc0623c-5e10-43a8-b92b-e2871c84eceb.jpg)
    .. image:: ../images/arduino_menu_preferences.jpg
        :target: ../_images/arduino_menu_preferences.jpg
    
 #. Select preferences
 
+![arduino_preferences_dialog](https://user-images.githubusercontent.com/30057649/125969021-e0aa3ac9-1eaa-4e60-ac3b-639a957510db.png)
    .. image:: ../images/arduino_preferences_dialog.png
        :target: ../_images/arduino_preferences_dialog.png
 
@@ -190,30 +210,35 @@ Connect your APM to your USB
    the program you wish to load onto your APM2.x (for this example we
    will use Copter, though the others use the same methods.
 
+![arduino_tools_sketchbook_copter](https://user-images.githubusercontent.com/30057649/125969030-3cf67e89-373f-4442-a485-7f914ecf2816.jpg)
    .. image:: ../images/arduino_tools_sketchbook_copter.jpg
        :target: ../_images/arduino_tools_sketchbook_copter.jpg
    
 #. Once this is loaded, click on the ArduPilot tab, and select ArduPilot
    mega 2.x out of the HAL options.
 
+![arduino_tools_target_apm2](https://user-images.githubusercontent.com/30057649/125969032-530bda83-fe75-4abe-90de-64a8f00d905a.jpg)
    .. image:: ../images/arduino_tools_target_apm2.jpg
        :target: ../_images/arduino_tools_target_apm2.jpg
    
 #. Then click the “Tools” tab and select “Arduino Mega 2560 or Mega ADK”
    from the “Board” tab.
 
+![arduino_tools_select_target_board](https://user-images.githubusercontent.com/30057649/125969026-bb3296f9-66ff-420d-aec9-b39c0045152b.jpg)
    .. image:: ../images/arduino_tools_select_target_board.jpg
        :target: ../_images/arduino_tools_select_target_board.jpg
    
 #. Next select the *Tools* tab again, and set the “Serial Port” to the
    one your APM is connected to.
 
+![arduino_tools_serial_port](https://user-images.githubusercontent.com/30057649/125969028-fec5d76f-269a-4dfd-ac6c-4b6e8ea76611.jpg)
    .. image:: ../images/arduino_tools_serial_port.jpg
        :target: ../_images/arduino_tools_serial_port.jpg
    
 #. In my case it was COM4, but check under device manager / Ports to
    find out on your system.
 
+![arduino_tools_confirm_correct_com_port_in_drivers](https://user-images.githubusercontent.com/30057649/125969023-8b1fffb6-cc97-41bd-90d4-9c2b83dbf515.jpg)
    .. image:: ../images/arduino_tools_confirm_correct_com_port_in_drivers.jpg
        :target: ../_images/arduino_tools_confirm_correct_com_port_in_drivers.jpg
 
@@ -255,7 +280,7 @@ Upload to your ArduPilot
 ========================
 
 #. Then if all is well upload to the autopilot, as shown:
-
+![arduino_tools_upload_ardupilot_button](https://user-images.githubusercontent.com/30057649/125969035-e34f248f-775a-4564-a348-a8a0feff0cb9.png)
    .. image:: ../images/arduino_tools_upload_ardupilot_button.png
        :target: ../_images/arduino_tools_upload_ardupilot_button.png
 
