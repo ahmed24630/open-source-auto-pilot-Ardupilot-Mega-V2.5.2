@@ -152,9 +152,11 @@ Configure Arduino
    
 3. When Arduino opens, go to the file menu
 
+
 ![arduino_menu_preferences](https://user-images.githubusercontent.com/30057649/125969020-7fc0623c-5e10-43a8-b92b-e2871c84eceb.jpg)
    
 4. Select preferences
+
 
 ![arduino_preferences_dialog](https://user-images.githubusercontent.com/30057649/125969021-e0aa3ac9-1eaa-4e60-ac3b-639a957510db.png)
 
