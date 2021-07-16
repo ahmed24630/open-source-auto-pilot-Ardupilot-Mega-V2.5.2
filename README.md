@@ -36,45 +36,29 @@ Install Git-SCM
 #. Follow the screenshots below to make your selections during install.
 
 ![git_setup_wizard_welcome](https://user-images.githubusercontent.com/30057649/125969065-1365d055-f834-4675-9dd2-4b41664e6fe3.jpg)
-   .. image:: ../images/git_setup_wizard_welcome.jpg
-       :target: ../_images/git_setup_wizard_welcome.jpg
        
 ![git_setup_wizard_license](https://user-images.githubusercontent.com/30057649/125969055-fc666497-bd51-4e76-badf-a802c8296a82.jpg)
-   .. image:: ../images/git_setup_wizard_license.jpg
-       :target: ../_images/git_setup_wizard_license.jpg
     
 #. On the *Welcome screen* and then again on the *License screen* click
    the **Next** button
 
 ![git_setup_wizard_components](https://user-images.githubusercontent.com/30057649/125969047-b7d86651-a37c-4e46-91a4-51e4ce18f145.jpg)
-   .. image:: ../images/git_setup_wizard_components.jpg
-       :target: ../_images/git_setup_wizard_components.jpg
    
 ![git_setup_wizard_view_release_notes](https://user-images.githubusercontent.com/30057649/125969062-3985a263-ead7-4875-987e-2f37b3837da0.jpg)
-   .. image:: ../images/git_setup_wizard_view_release_notes.jpg
-       :target: ../_images/git_setup_wizard_view_release_notes.jpg
    
 #. On the *Select Components screen* click on the **Next** button, then
    click the **Finish** button
 
 ![git_setup_wizard_replace_in_use_files](https://user-images.githubusercontent.com/30057649/125969058-ba022006-4c10-4d26-80b8-a4b51a61d71a.jpg)
-   .. image:: ../images/git_setup_wizard_replace_in_use_files.jpg
-       :target: ../_images/git_setup_wizard_replace_in_use_files.jpg
    
-   ![git_setup_wizard_installing_files](https://user-images.githubusercontent.com/30057649/125969051-9e537abc-4fab-4878-9824-167ab8bb66b4.jpg)
-   .. image:: ../images/git_setup_wizard_installing_files.jpg
-       :target: ../_images/git_setup_wizard_installing_files.jpg
+![git_setup_wizard_installing_files](https://user-images.githubusercontent.com/30057649/125969051-9e537abc-4fab-4878-9824-167ab8bb66b4.jpg)
    
 #. Click the **Next** button in the *Replacing in Use Files Screen*,
    then wait for Git to finish loading
 
 ![git_setup_wizard_set_line_endings](https://user-images.githubusercontent.com/30057649/125969061-d546c406-2ccb-4a07-b216-382000792913.jpg)
-   .. image:: ../images/git_setup_wizard_set_line_endings.jpg
-       :target: ../_images/git_setup_wizard_set_line_endings.jpg
    
 ![git_setup_wizard_run_git_command_prompt](https://user-images.githubusercontent.com/30057649/125969059-eb602bc1-8e59-4405-b957-c4cf24f4b2a8.jpg)
-   .. image:: ../images/git_setup_wizard_run_git_command_prompt.jpg
-       :target: ../_images/git_setup_wizard_run_git_command_prompt.jpg
    
 #. Select the *Checkout Windows* item and the **Next** button then
    Select the *Run Git from Windows* item and the **Next** button.
@@ -86,20 +70,14 @@ Download source
    computer). Navigate to the folder Windows Explorer
    
 ![git_setup_create_git_directory](https://user-images.githubusercontent.com/30057649/125969045-63dca18d-3920-41d7-b2cc-663e7972792f.jpg)
-   .. image:: ../images/git_setup_create_git_directory.jpg
-       :target: ../_images/git_setup_create_git_directory.jpg
    
 #. Right click anywhere in the folder and click git bash
 
 ![git_bash_command_prompt](https://user-images.githubusercontent.com/30057649/125969039-2428f813-cffe-460c-b371-e8fac320f2e5.jpg)
-   .. image:: ../images/git_bash_command_prompt.jpg
-       :target: ../_images/git_bash_command_prompt.jpg
 
    This screen will come up
 
 ![git_bash_prompt](https://user-images.githubusercontent.com/30057649/125969042-88827b49-e63f-456a-b0bf-0e8afee2cd98.jpg)
-   .. image:: ../images/git_bash_prompt.jpg
-       :target: ../_images/git_bash_prompt.jpg
 
 #. In this screen type
 
@@ -273,6 +251,7 @@ Configure Copter
 
    I would choose Verify for the first attempt.
 
+![arduino_tools_verify_button](https://user-images.githubusercontent.com/30057649/125971820-0ec9ee8c-c042-41d6-b45d-4bfe4f53f3b1.jpg)
    .. image:: ../images/arduino_tools_verify_button.jpg
        :target: ../_images/arduino_tools_verify_button.jpg
 
@@ -288,6 +267,7 @@ Upload to your ArduPilot
 
 #. You should end up with the message as shown below.
 
+![arduino_tools_upload_complete_message](https://user-images.githubusercontent.com/30057649/125971738-dd0eaa19-2e43-4766-8fad-13092c8e4140.jpg)
    .. image:: ../images/arduino_tools_upload_complete_message.jpg
        :target: ../_images/arduino_tools_upload_complete_message.jpg
    
